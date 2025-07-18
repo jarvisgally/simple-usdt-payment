@@ -24,7 +24,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/javisgally/simple-usdt-payment.git
+git clone https://github.com/jarvisgally/simple-usdt-payment
 cd simple-usdt-payment
 
 # 创建虚拟环境（推荐）
@@ -103,15 +103,6 @@ flask-usdt-payment/
     └── img/
         └── usdt-bsc.png  # USDT logo
 ```
-
-## API 端点
-
-- `GET /` - 首页
-- `POST /create_order` - 创建订单
-- `GET /order/<order_no>` - 订单详情
-- `GET /order/<order_no>/check` - 检查订单状态
-- `GET /health` - 健康检查
-- `GET /admin/check_orders` - 手动触发检查（测试用）
 
 ## 许可证
 
